@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.google-header{
+    width: 100%;
+    max-height: 500px;
+    float: right;
+    font-family: sans-serif;
+}
+.google-header img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+.gmail-img{
+    border-radius: 50%;
+    width: 40px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.header-icons{
+    width: 200px;
+    float: left;
+    margin-top: 28px;
+    margin-right: 10px;
+}
+.header-icons .fa-th{
+    color: gray;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 20px;
+    float: left;
+    cursor: pointer;
+}
+.header-icons .fa-th:hover{
+    color: #000;
+}
+.header-icons .fa-bell{
+    width: 20px;
+    height: 20px;
+    background-color: #737373;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    float: right;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.header-icons .fa-bell:hover{
+    color: #000;
+}
+.header-icons a {
+    float: right;
+    margin-right: 15px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+.header-icons a:hover{
+    color: gray;
+} 
+.google-search{
+    font-family: sans-serif;
+    padding: 20px;
+}
+.google-img img{
+    cursor: pointer;
+    width: 250px;
+    margin: 100px auto 10px;
+}
+.input-group{
+    margin: 13px auto 10px;
+    border-radius: 18px;
+    max-width: 550px;
+    background-color: #f5f5f5;
+}
+.form-control{
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: #f5f5f5 !important;
+    padding: 5px;
+    margin-left: 25px;
+}
+.fa-search{
+    transform: translate(10px, 10px);
+    color: rgb(53, 51, 51);
+}
+.input-group-text{
+    border: none !important;
+    background: transparent;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.input-group .fa{
+    color: #007bff;
+    cursor: pointer;
+}
+.form-control:hover{
+    box-shadow: none !important;
+}
+
+.bookmarks{
+    width: 400px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.col-md-4{
+    width: 120px  !important;
+    padding: none !important;
+}
+.site{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+.site:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.site p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.site .icon{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding-top: 12px;
+}
+.fa-envelope{
+    color: #ea4335;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.fa-linkedin{
+    color: #007bff;
+}
+.fa-instagram{
+    color: #125688;
+}
